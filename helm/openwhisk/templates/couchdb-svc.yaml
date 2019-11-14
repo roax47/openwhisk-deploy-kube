@@ -29,4 +29,6 @@ spec:
   ports:
     - port: {{ .Values.db.port }}
       name: couchdb
+      nodePort: {{ .Values.db.httpsNodePort }}
+  type: NodePort
 {{ end }}
