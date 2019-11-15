@@ -1,7 +1,7 @@
 whisk:
   ingress:
     type: NodePort
-    apiHostName: 172.17.0.2
+    apiHostName: 172.17.0.3
     apiHostPort: 31001
 
 invoker:
