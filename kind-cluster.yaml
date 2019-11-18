@@ -6,4 +6,8 @@ nodes:
   extraPortMappings:
     - hostPort: 31001
       containerPort: 31001
+    - hostPort: 32000
+      containerPort: 32000
+    - hostPort: 32500
+      containerPort: 32500
 
